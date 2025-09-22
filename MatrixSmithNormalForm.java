@@ -12,7 +12,7 @@
 
 import java.util.Arrays;
 
-public class SNF {
+public class MatrixSmithNormalForm {
 
     /* 1. find the smallest (absolute value) non-zero number in the matrix */
     public static int[] findSmallest(int[][] A) {
@@ -258,4 +258,5 @@ public class SNF {
         int[][] S = Arrays.copyOf(A, A.length); //send a copy otherwise Java modifies the original matrix
         S = snf(S);
     }
+
 }
