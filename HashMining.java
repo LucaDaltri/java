@@ -3,7 +3,7 @@ import java.util.*;
 import java.security.*;
 import java.lang.Math;
 
-public class CS210project {
+public class HashMining {
     // 00 - class variables
     private static String[] x1 = {"I", "You", "We", "They"}; // subject
     private static String[] x2 = {"abnormally", "accidentally", "actually", "almost", "always", "carefully", "deeply", "easily"}; // adverb
@@ -387,3 +387,4 @@ public class CS210project {
     }
 
 }
+
